@@ -20,17 +20,17 @@ describe ImagesController, type: :controller do
     end
   end
 
-  describe "POST update_all" do
+  describe "POST resize_images" do
     it "returns 201 status" do
       VCR.use_cassette(:all_images_json_and_images_files) do
-        post :update_all
+        post :resize_images
         expect(response.status).to eq(201)
       end
     end
 
     it "returns 500 status" do
       VCR.use_cassette(:all_images_json_and_images_files_bad_connection) do
-        post :update_all
+        post :resize_images
         expect(response.status).to eq(500)
       end
     end
@@ -38,7 +38,7 @@ describe ImagesController, type: :controller do
     it "update all saved images with webservice content" do
       VCR.use_cassette(:all_images_json_and_images_files) do
         expect {
-          post :update_all
+          post :resize_images
         }.to change(Image, :count).by(10)
       end
     end
