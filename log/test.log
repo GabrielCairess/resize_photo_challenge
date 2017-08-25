@@ -609,3 +609,1055 @@ MONGODB | localhost:27017 | resize_photos_challenge_test.count | SUCCEEDED | 0.0
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1m6z6yo.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-31i5xm.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-31i5xm.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-31i5xm.jpg[0]' -auto-orient -resize "320x240>" '/tmp/3aabc94e19d315e424d34fa8d34d36e620170825-366-b336cx'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-31i5xm.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-31i5xm.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-31i5xm.jpg[0]' -auto-orient -resize "384x288>" '/tmp/3aabc94e19d315e424d34fa8d34d36e620170825-366-1czmo0p'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-31i5xm.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-31i5xm.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-31i5xm.jpg[0]' -auto-orient -resize "640x480>" '/tmp/3aabc94e19d315e424d34fa8d34d36e620170825-366-uvc5q'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1e2m51q.jpg'
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a929e0b105016ec4de88'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.001382331s
+Processing by ImagesController#index as HTML
+  Rendering images/index.json.jbuilder
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | SUCCEEDED | 0.0007105179999999999s
+  Rendered images/_images.json.jbuilder (1.0ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.6ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/index.json.jbuilder (13.7ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.4ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-mjidy1.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-ybir8p.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-ybir8p.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-ybir8p.jpg[0]' -auto-orient -resize "320x240>" '/tmp/e254642400c106bad465df30670c5b4320170825-366-cda4mr'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-ybir8p.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-ybir8p.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-ybir8p.jpg[0]' -auto-orient -resize "384x288>" '/tmp/e254642400c106bad465df30670c5b4320170825-366-czdde6'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-ybir8p.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-ybir8p.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-ybir8p.jpg[0]' -auto-orient -resize "640x480>" '/tmp/e254642400c106bad465df30670c5b4320170825-366-ajq2hv'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-4csky1.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92ae0b105016ec4de89'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.0006261589999999999s
+Processing by ImagesController#index as HTML
+  Rendering images/index.json.jbuilder
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | SUCCEEDED | 0.0007350649999999999s
+  Rendered images/_images.json.jbuilder (0.6ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.6ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/index.json.jbuilder (10.7ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+Processing by ImagesController#resize_images as HTML
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | STARTED | {"count"=>"images", "query"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | SUCCEEDED | 0.000394707s
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | SUCCEEDED | 0.000628306s
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a48ee0b105743c55f301')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000437713s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a48fe0b105743c55f302')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.0005144969999999999s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a490e0b105743c55f303')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000489874s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a491e0b105743c55f304')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.00047368599999999996s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a492e0b105743c55f305')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000421496s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a494e0b105743c55f306')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.00045703700000000004s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a495e0b105743c55f307')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.00044974800000000003s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a497e0b105743c55f308')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.00042839399999999996s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a497e0b105743c55f309')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.00042395299999999997s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a498e0b105743c55f30a')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000423352s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a929e0b105016ec4de88')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.00044316500000000003s
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92ae0b105016ec4de89')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000437293s
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-jrowel.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1npcnp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1npcnp.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1npcnp.jpg[0]' -auto-orient -resize "320x240>" '/tmp/f040a2d4a0763747f1b47fe2f8e968c620170825-366-jjcluj'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1npcnp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1npcnp.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1npcnp.jpg[0]' -auto-orient -resize "384x288>" '/tmp/f040a2d4a0763747f1b47fe2f8e968c620170825-366-ch7ohs'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1npcnp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1npcnp.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1npcnp.jpg[0]' -auto-orient -resize "640x480>" '/tmp/f040a2d4a0763747f1b47fe2f8e968c620170825-366-f6ny0m'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-138owl3.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92ae0b105016ec4de8a'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000466032s
+Command :: file -b --mime '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-79s3hg.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-1yuopdh.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-1yuopdh.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-1yuopdh.jpg[0]' -auto-orient -resize "320x240>" '/tmp/5602514ffc7f7b5845b10698d04a87c320170825-366-17ya1d9'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-1yuopdh.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-1yuopdh.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-1yuopdh.jpg[0]' -auto-orient -resize "384x288>" '/tmp/5602514ffc7f7b5845b10698d04a87c320170825-366-1lf5e7q'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-1yuopdh.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-1yuopdh.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-1yuopdh.jpg[0]' -auto-orient -resize "640x480>" '/tmp/5602514ffc7f7b5845b10698d04a87c320170825-366-bj0kk1'
+Command :: file -b --mime '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-7esdxl.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92ae0b105016ec4de8b'), "attachment_file_name"=>"b777_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>68855, "attachment_fingerprint"=>"35a385b278910a65225d755e3b3...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000806875s
+Command :: file -b --mime '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-qm5mdw.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1han6lv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1han6lv.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1han6lv.jpg[0]' -auto-orient -resize "320x240>" '/tmp/eb93d37b59f78e4b1896e1f13e8c356020170825-366-1h1x6dn'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1han6lv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1han6lv.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1han6lv.jpg[0]' -auto-orient -resize "384x288>" '/tmp/eb93d37b59f78e4b1896e1f13e8c356020170825-366-1ouzdjv'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1han6lv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1han6lv.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1han6lv.jpg[0]' -auto-orient -resize "640x480>" '/tmp/eb93d37b59f78e4b1896e1f13e8c356020170825-366-b1y03'
+Command :: file -b --mime '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-10b02z0.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92be0b105016ec4de8c'), "attachment_file_name"=>"b737_3.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>77016, "attachment_fingerprint"=>"b13e46836e433acf91d14cfb061...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000506342s
+Command :: file -b --mime '/tmp/aa23923458366899052fad2de9e5771520170825-366-spsqyz.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-366-1wj2wk2.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-366-1wj2wk2.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-366-1wj2wk2.jpg[0]' -auto-orient -resize "320x240>" '/tmp/a7ef57816c1f2b66d956f15120d973d320170825-366-p2642y'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-366-1wj2wk2.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-366-1wj2wk2.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-366-1wj2wk2.jpg[0]' -auto-orient -resize "384x288>" '/tmp/a7ef57816c1f2b66d956f15120d973d320170825-366-1vmugkx'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-366-1wj2wk2.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-366-1wj2wk2.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-366-1wj2wk2.jpg[0]' -auto-orient -resize "640x480>" '/tmp/a7ef57816c1f2b66d956f15120d973d320170825-366-xx74nx'
+Command :: file -b --mime '/tmp/aa23923458366899052fad2de9e5771520170825-366-dwccms.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92be0b105016ec4de8d'), "attachment_file_name"=>"b777_4.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>74111, "attachment_fingerprint"=>"98f5425011fa67896c6030daa8a...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.00055397s
+Command :: file -b --mime '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-17yxeny.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-lth3bt.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-lth3bt.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-lth3bt.jpg[0]' -auto-orient -resize "320x240>" '/tmp/7b1f6764b070eb3d0139f990e2a5663f20170825-366-1yumv6o'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-lth3bt.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-lth3bt.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-lth3bt.jpg[0]' -auto-orient -resize "384x288>" '/tmp/7b1f6764b070eb3d0139f990e2a5663f20170825-366-wdu7eh'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-lth3bt.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-lth3bt.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-lth3bt.jpg[0]' -auto-orient -resize "640x480>" '/tmp/7b1f6764b070eb3d0139f990e2a5663f20170825-366-11srzes'
+Command :: file -b --mime '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-4sdfj7.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92be0b105016ec4de8e'), "attachment_file_name"=>"b777_3.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>24924, "attachment_fingerprint"=>"6cd2f754b10e61b2e6fec10c6a3...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000573018s
+Command :: file -b --mime '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-4ao41e.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-1y9n030.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-1y9n030.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-1y9n030.jpg[0]' -auto-orient -resize "320x240>" '/tmp/90e5e6920fbd94b57759414c4989cbbf20170825-366-rd109c'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-1y9n030.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-1y9n030.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-1y9n030.jpg[0]' -auto-orient -resize "384x288>" '/tmp/90e5e6920fbd94b57759414c4989cbbf20170825-366-1ydsqu3'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-1y9n030.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-1y9n030.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-1y9n030.jpg[0]' -auto-orient -resize "640x480>" '/tmp/90e5e6920fbd94b57759414c4989cbbf20170825-366-1owazwr'
+Command :: file -b --mime '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-8epgg6.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92ce0b105016ec4de8f'), "attachment_file_name"=>"b737_2.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>353664, "attachment_fingerprint"=>"155743521e7242782d5ea2c67f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.0006097990000000001s
+Command :: file -b --mime '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-9dpwoy.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1qoxuz5.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1qoxuz5.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1qoxuz5.jpg[0]' -auto-orient -resize "320x240>" '/tmp/2cb24cfbadb4ff2961046b2a13ba218c20170825-366-1hlzfa'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1qoxuz5.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1qoxuz5.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1qoxuz5.jpg[0]' -auto-orient -resize "384x288>" '/tmp/2cb24cfbadb4ff2961046b2a13ba218c20170825-366-1krc77c'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1qoxuz5.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1qoxuz5.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1qoxuz5.jpg[0]' -auto-orient -resize "640x480>" '/tmp/2cb24cfbadb4ff2961046b2a13ba218c20170825-366-1l7bdgi'
+Command :: file -b --mime '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-ac0f7j.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92ce0b105016ec4de90'), "attachment_file_name"=>"b777_2.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>96277, "attachment_fingerprint"=>"d817e96ff1e2d4e1faf4d759e3a...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.0007388729999999999s
+Command :: file -b --mime '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1cev18z.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1m82cdp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1m82cdp.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1m82cdp.jpg[0]' -auto-orient -resize "320x240>" '/tmp/9de416469c7fb2218da33ffee4768dc420170825-366-13nqdf0'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1m82cdp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1m82cdp.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1m82cdp.jpg[0]' -auto-orient -resize "384x288>" '/tmp/9de416469c7fb2218da33ffee4768dc420170825-366-abf8dk'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1m82cdp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1m82cdp.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1m82cdp.jpg[0]' -auto-orient -resize "640x480>" '/tmp/9de416469c7fb2218da33ffee4768dc420170825-366-1ge5umk'
+Command :: file -b --mime '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1m84uy8.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92ce0b105016ec4de91'), "attachment_file_name"=>"b777_1.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>94763, "attachment_fingerprint"=>"7a676c8456eb4fa883cce88244d...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000586601s
+Command :: file -b --mime '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-10eziws.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1r0egmd.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1r0egmd.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1r0egmd.jpg[0]' -auto-orient -resize "320x240>" '/tmp/64159e4e31a3d29e9d8828db7a69acb320170825-366-d0hhu9'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1r0egmd.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1r0egmd.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1r0egmd.jpg[0]' -auto-orient -resize "384x288>" '/tmp/64159e4e31a3d29e9d8828db7a69acb320170825-366-y69unk'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1r0egmd.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1r0egmd.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1r0egmd.jpg[0]' -auto-orient -resize "640x480>" '/tmp/64159e4e31a3d29e9d8828db7a69acb320170825-366-1a2b0oa'
+Command :: file -b --mime '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-v02ve7.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92ce0b105016ec4de92'), "attachment_file_name"=>"b737_4.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>36270, "attachment_fingerprint"=>"8705cee1ce5e5846f66e4651f8f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000861216s
+Command :: file -b --mime '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1eh93r2.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-amjmoh.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-amjmoh.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-amjmoh.jpg[0]' -auto-orient -resize "320x240>" '/tmp/71101b76b838c763554d9199ad8f542420170825-366-d325f'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-amjmoh.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-amjmoh.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-amjmoh.jpg[0]' -auto-orient -resize "384x288>" '/tmp/71101b76b838c763554d9199ad8f542420170825-366-9iudgt'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-amjmoh.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-amjmoh.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-amjmoh.jpg[0]' -auto-orient -resize "640x480>" '/tmp/71101b76b838c763554d9199ad8f542420170825-366-ga8apg'
+Command :: file -b --mime '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1w0jrpq.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92de0b105016ec4de93'), "attachment_file_name"=>"b737_1.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>68409, "attachment_fingerprint"=>"c5becbb955882dce56cda423d50...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000925147s
+Completed 201 Created in 3133ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+Processing by ImagesController#resize_images as HTML
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | STARTED | {"count"=>"images", "query"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | SUCCEEDED | 0.00038050700000000003s
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | SUCCEEDED | 0.000587419s
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92ae0b105016ec4de8a')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000524395s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92ae0b105016ec4de8b')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000475234s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92be0b105016ec4de8c')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000898944s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92be0b105016ec4de8d')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000553509s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92be0b105016ec4de8e')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000507673s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92ce0b105016ec4de8f')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000451761s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92ce0b105016ec4de90')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.0005506549999999999s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92ce0b105016ec4de91')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000457328s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92ce0b105016ec4de92')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.0005223239999999999s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92de0b105016ec4de93')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000438608s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_large.jpg
+Completed 500 Internal Server Error in 63ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | STARTED | {"count"=>"images", "query"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | SUCCEEDED | 0.000496051s
+Processing by ImagesController#resize_images as HTML
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | STARTED | {"count"=>"images", "query"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | SUCCEEDED | 0.000354356s
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | SUCCEEDED | 0.00040060700000000004s
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1q2u670.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-19d5pm8.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-19d5pm8.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-19d5pm8.jpg[0]' -auto-orient -resize "320x240>" '/tmp/a73120feff23c17aa4b8b506c79f533520170825-366-1jeuy7g'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-19d5pm8.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-19d5pm8.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-19d5pm8.jpg[0]' -auto-orient -resize "384x288>" '/tmp/a73120feff23c17aa4b8b506c79f533520170825-366-18l0uvh'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-19d5pm8.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-19d5pm8.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-19d5pm8.jpg[0]' -auto-orient -resize "640x480>" '/tmp/a73120feff23c17aa4b8b506c79f533520170825-366-1s1h2tr'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1x88adu.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92de0b105016ec4de94'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000554702s
+Command :: file -b --mime '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-ss85ck.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-ddsies.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-ddsies.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-ddsies.jpg[0]' -auto-orient -resize "320x240>" '/tmp/ea65d31739425d1ecd9d8071bd3d8abb20170825-366-1fgudbs'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-ddsies.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-ddsies.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-ddsies.jpg[0]' -auto-orient -resize "384x288>" '/tmp/ea65d31739425d1ecd9d8071bd3d8abb20170825-366-zvn4a0'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-ddsies.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-ddsies.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-ddsies.jpg[0]' -auto-orient -resize "640x480>" '/tmp/ea65d31739425d1ecd9d8071bd3d8abb20170825-366-9l9jpf'
+Command :: file -b --mime '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-366-1gybjti.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92de0b105016ec4de95'), "attachment_file_name"=>"b777_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>68855, "attachment_fingerprint"=>"35a385b278910a65225d755e3b3...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.00106563s
+Command :: file -b --mime '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-b9pjod.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1a643bc.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1a643bc.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1a643bc.jpg[0]' -auto-orient -resize "320x240>" '/tmp/16d39a233cbb701ea64bcd42a7b29fd020170825-366-1h3cu1m'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1a643bc.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1a643bc.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1a643bc.jpg[0]' -auto-orient -resize "384x288>" '/tmp/16d39a233cbb701ea64bcd42a7b29fd020170825-366-hjanrj'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1a643bc.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1a643bc.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-1a643bc.jpg[0]' -auto-orient -resize "640x480>" '/tmp/16d39a233cbb701ea64bcd42a7b29fd020170825-366-elq98l'
+Command :: file -b --mime '/tmp/15881ccb330f1716967899d280bb2b2b20170825-366-sn50np.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92ee0b105016ec4de96'), "attachment_file_name"=>"b737_3.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>77016, "attachment_fingerprint"=>"b13e46836e433acf91d14cfb061...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000469099s
+Command :: file -b --mime '/tmp/aa23923458366899052fad2de9e5771520170825-366-1pavpy8.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-366-15etv19.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-366-15etv19.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-366-15etv19.jpg[0]' -auto-orient -resize "320x240>" '/tmp/d9f4d1c888577d3c2b5482f0d55a2c8320170825-366-y6zq1r'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-366-15etv19.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-366-15etv19.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-366-15etv19.jpg[0]' -auto-orient -resize "384x288>" '/tmp/d9f4d1c888577d3c2b5482f0d55a2c8320170825-366-1srmk91'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-366-15etv19.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-366-15etv19.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-366-15etv19.jpg[0]' -auto-orient -resize "640x480>" '/tmp/d9f4d1c888577d3c2b5482f0d55a2c8320170825-366-6pr6c6'
+Command :: file -b --mime '/tmp/aa23923458366899052fad2de9e5771520170825-366-1teyvlp.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92ee0b105016ec4de97'), "attachment_file_name"=>"b777_4.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>74111, "attachment_fingerprint"=>"98f5425011fa67896c6030daa8a...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000561395s
+Command :: file -b --mime '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-mwpiis.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-1tste0w.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-1tste0w.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-1tste0w.jpg[0]' -auto-orient -resize "320x240>" '/tmp/20c9ea79b06de9827ca7ae29f9cd653820170825-366-lwmnal'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-1tste0w.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-1tste0w.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-1tste0w.jpg[0]' -auto-orient -resize "384x288>" '/tmp/20c9ea79b06de9827ca7ae29f9cd653820170825-366-ci68rm'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-1tste0w.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-1tste0w.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-1tste0w.jpg[0]' -auto-orient -resize "640x480>" '/tmp/20c9ea79b06de9827ca7ae29f9cd653820170825-366-jvhg0y'
+Command :: file -b --mime '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-366-da2lf4.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92ee0b105016ec4de98'), "attachment_file_name"=>"b777_3.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>24924, "attachment_fingerprint"=>"6cd2f754b10e61b2e6fec10c6a3...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000506795s
+Command :: file -b --mime '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-y05101.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-rxk4y.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-rxk4y.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-rxk4y.jpg[0]' -auto-orient -resize "320x240>" '/tmp/270769128771c7758ffb27cb6530b46020170825-366-wugonv'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-rxk4y.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-rxk4y.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-rxk4y.jpg[0]' -auto-orient -resize "384x288>" '/tmp/270769128771c7758ffb27cb6530b46020170825-366-14fz1dq'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-rxk4y.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-rxk4y.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-rxk4y.jpg[0]' -auto-orient -resize "640x480>" '/tmp/270769128771c7758ffb27cb6530b46020170825-366-wlwxqs'
+Command :: file -b --mime '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-366-1gwruum.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92fe0b105016ec4de99'), "attachment_file_name"=>"b737_2.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>353664, "attachment_fingerprint"=>"155743521e7242782d5ea2c67f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.00082266s
+Command :: file -b --mime '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-hv3f6j.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1cq72ll.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1cq72ll.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1cq72ll.jpg[0]' -auto-orient -resize "320x240>" '/tmp/829acc9cf15188c595b87054668af35620170825-366-13zszs3'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1cq72ll.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1cq72ll.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1cq72ll.jpg[0]' -auto-orient -resize "384x288>" '/tmp/829acc9cf15188c595b87054668af35620170825-366-7tkpnf'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1cq72ll.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1cq72ll.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1cq72ll.jpg[0]' -auto-orient -resize "640x480>" '/tmp/829acc9cf15188c595b87054668af35620170825-366-11i2dg7'
+Command :: file -b --mime '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-366-1je4mhu.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a92fe0b105016ec4de9a'), "attachment_file_name"=>"b777_2.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>96277, "attachment_fingerprint"=>"d817e96ff1e2d4e1faf4d759e3a...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000487654s
+Command :: file -b --mime '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-jqktxg.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1gcaxap.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1gcaxap.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1gcaxap.jpg[0]' -auto-orient -resize "320x240>" '/tmp/9f81c66375aac110befb30c0336e773520170825-366-10y7jmi'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1gcaxap.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1gcaxap.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1gcaxap.jpg[0]' -auto-orient -resize "384x288>" '/tmp/9f81c66375aac110befb30c0336e773520170825-366-3rgqmx'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1gcaxap.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1gcaxap.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1gcaxap.jpg[0]' -auto-orient -resize "640x480>" '/tmp/9f81c66375aac110befb30c0336e773520170825-366-1g3uvyx'
+Command :: file -b --mime '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-366-1tnkin.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a930e0b105016ec4de9b'), "attachment_file_name"=>"b777_1.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>94763, "attachment_fingerprint"=>"7a676c8456eb4fa883cce88244d...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.00055658s
+Command :: file -b --mime '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-f2wj9t.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1eqla1i.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1eqla1i.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1eqla1i.jpg[0]' -auto-orient -resize "320x240>" '/tmp/7b4b1e7991f6b64f604fdca002bea37620170825-366-17iunjl'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1eqla1i.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1eqla1i.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1eqla1i.jpg[0]' -auto-orient -resize "384x288>" '/tmp/7b4b1e7991f6b64f604fdca002bea37620170825-366-io9krj'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1eqla1i.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1eqla1i.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-1eqla1i.jpg[0]' -auto-orient -resize "640x480>" '/tmp/7b4b1e7991f6b64f604fdca002bea37620170825-366-10btkty'
+Command :: file -b --mime '/tmp/c659848797e18dd48289f1af3b1c07c620170825-366-mklk3t.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a930e0b105016ec4de9c'), "attachment_file_name"=>"b737_4.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>36270, "attachment_fingerprint"=>"8705cee1ce5e5846f66e4651f8f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000717574s
+Command :: file -b --mime '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1nhemne.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1ri6s14.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1ri6s14.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1ri6s14.jpg[0]' -auto-orient -resize "320x240>" '/tmp/498ccf73f481ac6d050f665e44b6fa6d20170825-366-ju7m89'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1ri6s14.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1ri6s14.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1ri6s14.jpg[0]' -auto-orient -resize "384x288>" '/tmp/498ccf73f481ac6d050f665e44b6fa6d20170825-366-fpbgpf'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1ri6s14.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1ri6s14.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-1ri6s14.jpg[0]' -auto-orient -resize "640x480>" '/tmp/498ccf73f481ac6d050f665e44b6fa6d20170825-366-10xm8m2'
+Command :: file -b --mime '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-366-ew1ugj.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a930e0b105016ec4de9d'), "attachment_file_name"=>"b737_1.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>68409, "attachment_fingerprint"=>"c5becbb955882dce56cda423d50...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000592752s
+Completed 201 Created in 3459ms (ActiveRecord: 0.0ms)
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | STARTED | {"count"=>"images", "query"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | SUCCEEDED | 0.00040306s
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-7lfuas.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-xqplds.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-xqplds.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-xqplds.jpg[0]' -auto-orient -resize "320x240>" '/tmp/1ba710e74133cc086eb2d14a294a0f6b20170825-366-1ewcijt'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-xqplds.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-xqplds.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-xqplds.jpg[0]' -auto-orient -resize "384x288>" '/tmp/1ba710e74133cc086eb2d14a294a0f6b20170825-366-ks6l7l'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-xqplds.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-xqplds.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-xqplds.jpg[0]' -auto-orient -resize "640x480>" '/tmp/1ba710e74133cc086eb2d14a294a0f6b20170825-366-1m1ymy'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-1hb7cpk.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a931e0b105016ec4de9e'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000485781s
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-i62j4f.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-nxnna4.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-nxnna4.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-nxnna4.jpg[0]' -auto-orient -resize "320x240>" '/tmp/e809106593b663708cd8d28a3099cdcf20170825-366-1xzgfc4'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-nxnna4.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-nxnna4.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-nxnna4.jpg[0]' -auto-orient -resize "384x288>" '/tmp/e809106593b663708cd8d28a3099cdcf20170825-366-j331xf'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-nxnna4.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-nxnna4.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-nxnna4.jpg[0]' -auto-orient -resize "640x480>" '/tmp/e809106593b663708cd8d28a3099cdcf20170825-366-1nb1tdp'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-366-eel6eq.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a931e0b105016ec4de9f'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000690959s
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-1a8benu.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-pe48li.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-pe48li.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-pe48li.jpg[0]' -auto-orient -resize "320x240>" '/tmp/487217dc75e7f9d97d754bc7ea4ff25f20170825-1456-1vpnzpi'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-pe48li.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-pe48li.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-pe48li.jpg[0]' -auto-orient -resize "384x288>" '/tmp/487217dc75e7f9d97d754bc7ea4ff25f20170825-1456-fnc2mz'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-pe48li.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-pe48li.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-pe48li.jpg[0]' -auto-orient -resize "640x480>" '/tmp/487217dc75e7f9d97d754bc7ea4ff25f20170825-1456-1u5vur5'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-1uwcl2s.jpg'
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9ece0b10505b0d5e539'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.0014093100000000002s
+Processing by ImagesController#index as HTML
+  Rendering images/index.json.jbuilder
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | SUCCEEDED | 0.0007763399999999999s
+  Rendered images/_images.json.jbuilder (1.0ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.7ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.6ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/index.json.jbuilder (15.8ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.4ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-19n0ts3.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-sub2ig.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-sub2ig.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-sub2ig.jpg[0]' -auto-orient -resize "320x240>" '/tmp/334c7c82088ff8699212a71b238d85ec20170825-1456-w72uyo'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-sub2ig.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-sub2ig.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-sub2ig.jpg[0]' -auto-orient -resize "384x288>" '/tmp/334c7c82088ff8699212a71b238d85ec20170825-1456-1be2g1x'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-sub2ig.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-sub2ig.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-sub2ig.jpg[0]' -auto-orient -resize "640x480>" '/tmp/334c7c82088ff8699212a71b238d85ec20170825-1456-1k9gdt1'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-1v403fp.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9ede0b10505b0d5e53a'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.00054126s
+Processing by ImagesController#index as HTML
+  Rendering images/index.json.jbuilder
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | SUCCEEDED | 0.000798579s
+  Rendered images/_images.json.jbuilder (0.6ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.7ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/_images.json.jbuilder (0.4ms)
+  Rendered images/index.json.jbuilder (12.6ms)
+Completed 200 OK in 13ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+Processing by ImagesController#resize_images as HTML
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | STARTED | {"count"=>"images", "query"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | SUCCEEDED | 0.00045946400000000003s
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | SUCCEEDED | 0.000624841s
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92de0b105016ec4de94')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000487159s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92de0b105016ec4de95')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000456966s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92ee0b105016ec4de96')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000465481s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92ee0b105016ec4de97')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000407738s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92ee0b105016ec4de98')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.00042124700000000003s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92fe0b105016ec4de99')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.00040480700000000003s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a92fe0b105016ec4de9a')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000476134s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a930e0b105016ec4de9b')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.0005940069999999999s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a930e0b105016ec4de9c')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000414645s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a930e0b105016ec4de9d')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000492369s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a931e0b105016ec4de9e')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000439034s
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a931e0b105016ec4de9f')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000369031s
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9ece0b10505b0d5e539')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.00044321s
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9ede0b10505b0d5e53a')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000321314s
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-1xhbsh4.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-kyki33.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-kyki33.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-kyki33.jpg[0]' -auto-orient -resize "320x240>" '/tmp/132d8189200b9949b1294c6c56c7ba4f20170825-1456-1ac9qe3'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-kyki33.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-kyki33.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-kyki33.jpg[0]' -auto-orient -resize "384x288>" '/tmp/132d8189200b9949b1294c6c56c7ba4f20170825-1456-1innq6'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-kyki33.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-kyki33.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-kyki33.jpg[0]' -auto-orient -resize "640x480>" '/tmp/132d8189200b9949b1294c6c56c7ba4f20170825-1456-75sap5'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-pu8olk.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9ede0b10505b0d5e53b'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.0007874399999999999s
+Command :: file -b --mime '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-z8rrzg.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-1wdtzbv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-1wdtzbv.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-1wdtzbv.jpg[0]' -auto-orient -resize "320x240>" '/tmp/a891833ed447b5c868079987e714d24a20170825-1456-xqbewr'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-1wdtzbv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-1wdtzbv.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-1wdtzbv.jpg[0]' -auto-orient -resize "384x288>" '/tmp/a891833ed447b5c868079987e714d24a20170825-1456-1stibq9'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-1wdtzbv.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-1wdtzbv.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-1wdtzbv.jpg[0]' -auto-orient -resize "640x480>" '/tmp/a891833ed447b5c868079987e714d24a20170825-1456-8f7akv'
+Command :: file -b --mime '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-xqv0kw.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9ede0b10505b0d5e53c'), "attachment_file_name"=>"b777_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>68855, "attachment_fingerprint"=>"35a385b278910a65225d755e3b3...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.0005988339999999999s
+Command :: file -b --mime '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-ujkolm.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-1r015t9.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-1r015t9.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-1r015t9.jpg[0]' -auto-orient -resize "320x240>" '/tmp/7bf1248c3e1f0932e0c9c3682de4f36820170825-1456-sbld6r'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-1r015t9.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-1r015t9.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-1r015t9.jpg[0]' -auto-orient -resize "384x288>" '/tmp/7bf1248c3e1f0932e0c9c3682de4f36820170825-1456-1roowcc'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-1r015t9.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-1r015t9.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-1r015t9.jpg[0]' -auto-orient -resize "640x480>" '/tmp/7bf1248c3e1f0932e0c9c3682de4f36820170825-1456-1plt63u'
+Command :: file -b --mime '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-f9dann.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9eee0b10505b0d5e53d'), "attachment_file_name"=>"b737_3.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>77016, "attachment_fingerprint"=>"b13e46836e433acf91d14cfb061...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.0006285840000000001s
+Command :: file -b --mime '/tmp/aa23923458366899052fad2de9e5771520170825-1456-r03d5q.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-1456-huokef.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-1456-huokef.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-1456-huokef.jpg[0]' -auto-orient -resize "320x240>" '/tmp/e15f9d5b2acbb9cf6c0eb437630fab6120170825-1456-qc3i7g'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-1456-huokef.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-1456-huokef.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-1456-huokef.jpg[0]' -auto-orient -resize "384x288>" '/tmp/e15f9d5b2acbb9cf6c0eb437630fab6120170825-1456-gftvgg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-1456-huokef.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-1456-huokef.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-1456-huokef.jpg[0]' -auto-orient -resize "640x480>" '/tmp/e15f9d5b2acbb9cf6c0eb437630fab6120170825-1456-13e4x9h'
+Command :: file -b --mime '/tmp/aa23923458366899052fad2de9e5771520170825-1456-135ncuv.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9eee0b10505b0d5e53e'), "attachment_file_name"=>"b777_4.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>74111, "attachment_fingerprint"=>"98f5425011fa67896c6030daa8a...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000594885s
+Command :: file -b --mime '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-12wynud.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-m93y5a.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-m93y5a.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-m93y5a.jpg[0]' -auto-orient -resize "320x240>" '/tmp/6e83e7b13c693c2a28aa255ede7502ff20170825-1456-bk659i'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-m93y5a.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-m93y5a.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-m93y5a.jpg[0]' -auto-orient -resize "384x288>" '/tmp/6e83e7b13c693c2a28aa255ede7502ff20170825-1456-z82m4t'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-m93y5a.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-m93y5a.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-m93y5a.jpg[0]' -auto-orient -resize "640x480>" '/tmp/6e83e7b13c693c2a28aa255ede7502ff20170825-1456-mqhs40'
+Command :: file -b --mime '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-r3909u.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9eee0b10505b0d5e53f'), "attachment_file_name"=>"b777_3.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>24924, "attachment_fingerprint"=>"6cd2f754b10e61b2e6fec10c6a3...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000472317s
+Command :: file -b --mime '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-1tbks0z.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-w38sll.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-w38sll.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-w38sll.jpg[0]' -auto-orient -resize "320x240>" '/tmp/4a5981fc38cbfce016e23bb66f8eaa1e20170825-1456-nak29r'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-w38sll.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-w38sll.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-w38sll.jpg[0]' -auto-orient -resize "384x288>" '/tmp/4a5981fc38cbfce016e23bb66f8eaa1e20170825-1456-pjn94s'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-w38sll.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-w38sll.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-w38sll.jpg[0]' -auto-orient -resize "640x480>" '/tmp/4a5981fc38cbfce016e23bb66f8eaa1e20170825-1456-duvqil'
+Command :: file -b --mime '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-ixgvke.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9efe0b10505b0d5e540'), "attachment_file_name"=>"b737_2.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>353664, "attachment_fingerprint"=>"155743521e7242782d5ea2c67f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000491652s
+Command :: file -b --mime '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-1q2jdng.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-7la18h.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-7la18h.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-7la18h.jpg[0]' -auto-orient -resize "320x240>" '/tmp/bad8fb4a773aea793cb3af63332109a920170825-1456-1734tyb'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-7la18h.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-7la18h.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-7la18h.jpg[0]' -auto-orient -resize "384x288>" '/tmp/bad8fb4a773aea793cb3af63332109a920170825-1456-1dk9t5z'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-7la18h.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-7la18h.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-7la18h.jpg[0]' -auto-orient -resize "640x480>" '/tmp/bad8fb4a773aea793cb3af63332109a920170825-1456-8tic45'
+Command :: file -b --mime '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-1fc734k.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9efe0b10505b0d5e541'), "attachment_file_name"=>"b777_2.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>96277, "attachment_fingerprint"=>"d817e96ff1e2d4e1faf4d759e3a...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000506181s
+Command :: file -b --mime '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1im2bjy.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1rgsl3q.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1rgsl3q.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1rgsl3q.jpg[0]' -auto-orient -resize "320x240>" '/tmp/31543b50fd16aad599c73e5a96eaf6dd20170825-1456-9llnah'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1rgsl3q.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1rgsl3q.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1rgsl3q.jpg[0]' -auto-orient -resize "384x288>" '/tmp/31543b50fd16aad599c73e5a96eaf6dd20170825-1456-ysoabv'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1rgsl3q.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1rgsl3q.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1rgsl3q.jpg[0]' -auto-orient -resize "640x480>" '/tmp/31543b50fd16aad599c73e5a96eaf6dd20170825-1456-1hymv59'
+Command :: file -b --mime '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1fp6eff.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9efe0b10505b0d5e542'), "attachment_file_name"=>"b777_1.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>94763, "attachment_fingerprint"=>"7a676c8456eb4fa883cce88244d...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000517144s
+Command :: file -b --mime '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-qa9u8o.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-9j3imw.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-9j3imw.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-9j3imw.jpg[0]' -auto-orient -resize "320x240>" '/tmp/3122e24d6b06d3ec7dc96e993837e36920170825-1456-iqye2x'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-9j3imw.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-9j3imw.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-9j3imw.jpg[0]' -auto-orient -resize "384x288>" '/tmp/3122e24d6b06d3ec7dc96e993837e36920170825-1456-1rdzjst'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-9j3imw.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-9j3imw.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-9j3imw.jpg[0]' -auto-orient -resize "640x480>" '/tmp/3122e24d6b06d3ec7dc96e993837e36920170825-1456-12obhop'
+Command :: file -b --mime '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-29q2jp.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9efe0b10505b0d5e543'), "attachment_file_name"=>"b737_4.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>36270, "attachment_fingerprint"=>"8705cee1ce5e5846f66e4651f8f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000710229s
+Command :: file -b --mime '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-ub2lqr.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-12wqh8s.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-12wqh8s.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-12wqh8s.jpg[0]' -auto-orient -resize "320x240>" '/tmp/56cf9b2d7d11994d53fcac66580f964620170825-1456-nownss'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-12wqh8s.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-12wqh8s.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-12wqh8s.jpg[0]' -auto-orient -resize "384x288>" '/tmp/56cf9b2d7d11994d53fcac66580f964620170825-1456-1mydn8i'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-12wqh8s.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-12wqh8s.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-12wqh8s.jpg[0]' -auto-orient -resize "640x480>" '/tmp/56cf9b2d7d11994d53fcac66580f964620170825-1456-1p7zgh8'
+Command :: file -b --mime '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-1uas29i.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f0e0b10505b0d5e544'), "attachment_file_name"=>"b737_1.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>68409, "attachment_fingerprint"=>"c5becbb955882dce56cda423d50...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000543683s
+Completed 201 Created in 2819ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+Processing by ImagesController#resize_images as HTML
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | STARTED | {"count"=>"images", "query"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | SUCCEEDED | 0.000456973s
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | SUCCEEDED | 0.000827393s
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9ede0b10505b0d5e53b')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000591657s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_5_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9ede0b10505b0d5e53c')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000645994s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_5_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9eee0b10505b0d5e53d')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000596285s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_3_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9eee0b10505b0d5e53e')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000519011s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_4_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9eee0b10505b0d5e53f')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000564161s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_3_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9efe0b10505b0d5e540')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000558779s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_2_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9efe0b10505b0d5e541')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000505192s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_2_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9efe0b10505b0d5e542')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.00043829400000000004s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b777_1_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9efe0b10505b0d5e543')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.000462793s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_4_large.jpg
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | STARTED | {"delete"=>"images", "deletes"=>[{"q"=>{"_id"=>BSON::ObjectId('59a0a9f0e0b10505b0d5e544')}, "limit"=>1}], "ordered"=>true}
+MONGODB | localhost:27017 | resize_photos_challenge_test.delete | SUCCEEDED | 0.00046039000000000003s
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_original.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_small.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_medium.jpg
+[paperclip] deleting /home/gabrielcaires/Área de Trabalho/resize_photo_challenge/public/images/b737_1_large.jpg
+Completed 500 Internal Server Error in 67ms (ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | STARTED | {"count"=>"images", "query"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | SUCCEEDED | 0.000423539s
+Processing by ImagesController#resize_images as HTML
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | STARTED | {"count"=>"images", "query"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | SUCCEEDED | 0.00045607099999999995s
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.find | SUCCEEDED | 0.00035985300000000004s
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-1hyneig.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-ths4gp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-ths4gp.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-ths4gp.jpg[0]' -auto-orient -resize "320x240>" '/tmp/34636ce7ddecce5d616d708aec4b555f20170825-1456-juubp'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-ths4gp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-ths4gp.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-ths4gp.jpg[0]' -auto-orient -resize "384x288>" '/tmp/34636ce7ddecce5d616d708aec4b555f20170825-1456-vga0nm'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-ths4gp.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-ths4gp.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-ths4gp.jpg[0]' -auto-orient -resize "640x480>" '/tmp/34636ce7ddecce5d616d708aec4b555f20170825-1456-ledxvw'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-pgb04u.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f0e0b10505b0d5e545'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000490188s
+Command :: file -b --mime '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-1f906f0.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-dpco8j.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-dpco8j.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-dpco8j.jpg[0]' -auto-orient -resize "320x240>" '/tmp/a6451347bbb94d0d481695ff467ff37920170825-1456-1l1slkl'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-dpco8j.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-dpco8j.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-dpco8j.jpg[0]' -auto-orient -resize "384x288>" '/tmp/a6451347bbb94d0d481695ff467ff37920170825-1456-1n6j2a0'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-dpco8j.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-dpco8j.jpg[0]'
+Command :: convert '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-dpco8j.jpg[0]' -auto-orient -resize "640x480>" '/tmp/a6451347bbb94d0d481695ff467ff37920170825-1456-16qksts'
+Command :: file -b --mime '/tmp/4ea3ca62c9b3f0d9981237b979e482b720170825-1456-qe73jp.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f0e0b10505b0d5e546'), "attachment_file_name"=>"b777_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>68855, "attachment_fingerprint"=>"35a385b278910a65225d755e3b3...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.0005317970000000001s
+Command :: file -b --mime '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-1c64ks4.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-kbe821.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-kbe821.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-kbe821.jpg[0]' -auto-orient -resize "320x240>" '/tmp/cc06f84dc424bbe5dedd583838b89ecc20170825-1456-j6dl73'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-kbe821.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-kbe821.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-kbe821.jpg[0]' -auto-orient -resize "384x288>" '/tmp/cc06f84dc424bbe5dedd583838b89ecc20170825-1456-11ntc9m'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-kbe821.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-kbe821.jpg[0]'
+Command :: convert '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-kbe821.jpg[0]' -auto-orient -resize "640x480>" '/tmp/cc06f84dc424bbe5dedd583838b89ecc20170825-1456-q8io09'
+Command :: file -b --mime '/tmp/15881ccb330f1716967899d280bb2b2b20170825-1456-s9kwth.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f0e0b10505b0d5e547'), "attachment_file_name"=>"b737_3.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>77016, "attachment_fingerprint"=>"b13e46836e433acf91d14cfb061...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.0007885430000000001s
+Command :: file -b --mime '/tmp/aa23923458366899052fad2de9e5771520170825-1456-1dcfyji.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-1456-1lu3g39.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-1456-1lu3g39.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-1456-1lu3g39.jpg[0]' -auto-orient -resize "320x240>" '/tmp/dc46b5186fb81b53cf3fcf5809cc38e420170825-1456-e35hme'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-1456-1lu3g39.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-1456-1lu3g39.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-1456-1lu3g39.jpg[0]' -auto-orient -resize "384x288>" '/tmp/dc46b5186fb81b53cf3fcf5809cc38e420170825-1456-3jobrh'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/aa23923458366899052fad2de9e5771520170825-1456-1lu3g39.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/aa23923458366899052fad2de9e5771520170825-1456-1lu3g39.jpg[0]'
+Command :: convert '/tmp/aa23923458366899052fad2de9e5771520170825-1456-1lu3g39.jpg[0]' -auto-orient -resize "640x480>" '/tmp/dc46b5186fb81b53cf3fcf5809cc38e420170825-1456-18wp1si'
+Command :: file -b --mime '/tmp/aa23923458366899052fad2de9e5771520170825-1456-1r7j9l2.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f1e0b10505b0d5e548'), "attachment_file_name"=>"b777_4.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>74111, "attachment_fingerprint"=>"98f5425011fa67896c6030daa8a...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000516813s
+Command :: file -b --mime '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-18gibkq.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-z5v2l8.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-z5v2l8.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-z5v2l8.jpg[0]' -auto-orient -resize "320x240>" '/tmp/e755e764513d274d13cf6c76b8177ed320170825-1456-ox8i5z'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-z5v2l8.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-z5v2l8.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-z5v2l8.jpg[0]' -auto-orient -resize "384x288>" '/tmp/e755e764513d274d13cf6c76b8177ed320170825-1456-yf0ah3'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-z5v2l8.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-z5v2l8.jpg[0]'
+Command :: convert '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-z5v2l8.jpg[0]' -auto-orient -resize "640x480>" '/tmp/e755e764513d274d13cf6c76b8177ed320170825-1456-q53t6o'
+Command :: file -b --mime '/tmp/4718ae3bc2f0d6c7feafca769a02fa4320170825-1456-1flpte3.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f1e0b10505b0d5e549'), "attachment_file_name"=>"b777_3.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>24924, "attachment_fingerprint"=>"6cd2f754b10e61b2e6fec10c6a3...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000491522s
+Command :: file -b --mime '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-m7g1nt.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-ymi67v.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-ymi67v.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-ymi67v.jpg[0]' -auto-orient -resize "320x240>" '/tmp/dfd1ce561e05293d5784fbe9a869ebc320170825-1456-1kefm35'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-ymi67v.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-ymi67v.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-ymi67v.jpg[0]' -auto-orient -resize "384x288>" '/tmp/dfd1ce561e05293d5784fbe9a869ebc320170825-1456-1kagomn'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-ymi67v.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-ymi67v.jpg[0]'
+Command :: convert '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-ymi67v.jpg[0]' -auto-orient -resize "640x480>" '/tmp/dfd1ce561e05293d5784fbe9a869ebc320170825-1456-7tnex6'
+Command :: file -b --mime '/tmp/373ad7a9d1f5c12c4cedf41c7139875020170825-1456-1yt2lh.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f1e0b10505b0d5e54a'), "attachment_file_name"=>"b737_2.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>353664, "attachment_fingerprint"=>"155743521e7242782d5ea2c67f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.0005375320000000001s
+Command :: file -b --mime '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-3p8ye6.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-1ogxf7m.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-1ogxf7m.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-1ogxf7m.jpg[0]' -auto-orient -resize "320x240>" '/tmp/16009d7ed1a72fae4a94f5607d04be1a20170825-1456-1xiripd'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-1ogxf7m.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-1ogxf7m.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-1ogxf7m.jpg[0]' -auto-orient -resize "384x288>" '/tmp/16009d7ed1a72fae4a94f5607d04be1a20170825-1456-1wfbkt3'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-1ogxf7m.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-1ogxf7m.jpg[0]'
+Command :: convert '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-1ogxf7m.jpg[0]' -auto-orient -resize "640x480>" '/tmp/16009d7ed1a72fae4a94f5607d04be1a20170825-1456-5mvt89'
+Command :: file -b --mime '/tmp/9bede4f75b4d68a666cc3a20e93bebbe20170825-1456-zqug64.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f2e0b10505b0d5e54b'), "attachment_file_name"=>"b777_2.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>96277, "attachment_fingerprint"=>"d817e96ff1e2d4e1faf4d759e3a...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000720588s
+Command :: file -b --mime '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1gtrpt0.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1q842lr.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1q842lr.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1q842lr.jpg[0]' -auto-orient -resize "320x240>" '/tmp/dd3aa08f0ea4b42d3d6bb043a76e11a620170825-1456-1ikkrgr'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1q842lr.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1q842lr.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1q842lr.jpg[0]' -auto-orient -resize "384x288>" '/tmp/dd3aa08f0ea4b42d3d6bb043a76e11a620170825-1456-1a1wljd'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1q842lr.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1q842lr.jpg[0]'
+Command :: convert '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1q842lr.jpg[0]' -auto-orient -resize "640x480>" '/tmp/dd3aa08f0ea4b42d3d6bb043a76e11a620170825-1456-1brbgnw'
+Command :: file -b --mime '/tmp/642e7e76460bf0e9805e7a26407dc90520170825-1456-1jsw0z6.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f2e0b10505b0d5e54c'), "attachment_file_name"=>"b777_1.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>94763, "attachment_fingerprint"=>"7a676c8456eb4fa883cce88244d...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000488307s
+Command :: file -b --mime '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-1grh1fq.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-wvs2gd.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-wvs2gd.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-wvs2gd.jpg[0]' -auto-orient -resize "320x240>" '/tmp/d88f2b0afea991214385a577dcfd19ff20170825-1456-1priezm'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-wvs2gd.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-wvs2gd.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-wvs2gd.jpg[0]' -auto-orient -resize "384x288>" '/tmp/d88f2b0afea991214385a577dcfd19ff20170825-1456-1fab2wz'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-wvs2gd.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-wvs2gd.jpg[0]'
+Command :: convert '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-wvs2gd.jpg[0]' -auto-orient -resize "640x480>" '/tmp/d88f2b0afea991214385a577dcfd19ff20170825-1456-13pi6x1'
+Command :: file -b --mime '/tmp/c659848797e18dd48289f1af3b1c07c620170825-1456-2ykfoq.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f2e0b10505b0d5e54d'), "attachment_file_name"=>"b737_4.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>36270, "attachment_fingerprint"=>"8705cee1ce5e5846f66e4651f8f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000527621s
+Command :: file -b --mime '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-cna6mv.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-1x2deph.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-1x2deph.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-1x2deph.jpg[0]' -auto-orient -resize "320x240>" '/tmp/0ff19a67fdfbef79fd69d72e1b4a397d20170825-1456-d939nr'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-1x2deph.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-1x2deph.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-1x2deph.jpg[0]' -auto-orient -resize "384x288>" '/tmp/0ff19a67fdfbef79fd69d72e1b4a397d20170825-1456-1r6uwrj'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-1x2deph.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-1x2deph.jpg[0]'
+Command :: convert '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-1x2deph.jpg[0]' -auto-orient -resize "640x480>" '/tmp/0ff19a67fdfbef79fd69d72e1b4a397d20170825-1456-pxt2ez'
+Command :: file -b --mime '/tmp/e40494f6ab1e655b6983c3fa0fe2823420170825-1456-58dctb.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f2e0b10505b0d5e54e'), "attachment_file_name"=>"b737_1.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>68409, "attachment_fingerprint"=>"c5becbb955882dce56cda423d50...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000509969s
+Completed 201 Created in 2648ms (ActiveRecord: 0.0ms)
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | STARTED | {"count"=>"images", "query"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_test.count | SUCCEEDED | 0.00041220799999999995s
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-1h0628h.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-15i2fy1.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-15i2fy1.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-15i2fy1.jpg[0]' -auto-orient -resize "320x240>" '/tmp/dd002c767d962224d914442c7d9c2ab120170825-1456-upzufp'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-15i2fy1.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-15i2fy1.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-15i2fy1.jpg[0]' -auto-orient -resize "384x288>" '/tmp/dd002c767d962224d914442c7d9c2ab120170825-1456-aqs12b'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-15i2fy1.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-15i2fy1.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-15i2fy1.jpg[0]' -auto-orient -resize "640x480>" '/tmp/dd002c767d962224d914442c7d9c2ab120170825-1456-1ltlt5b'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-w2k6tn.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f3e0b10505b0d5e54f'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000538286s
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-1kiqkzw.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-um5wlw.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-um5wlw.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-um5wlw.jpg[0]' -auto-orient -resize "320x240>" '/tmp/d14157d78324a51a97427bdb0f0ab75f20170825-1456-12w01rg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-um5wlw.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-um5wlw.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-um5wlw.jpg[0]' -auto-orient -resize "384x288>" '/tmp/d14157d78324a51a97427bdb0f0ab75f20170825-1456-1wlhxh0'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-um5wlw.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-um5wlw.jpg[0]'
+Command :: convert '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-um5wlw.jpg[0]' -auto-orient -resize "640x480>" '/tmp/d14157d78324a51a97427bdb0f0ab75f20170825-1456-1dntzo2'
+Command :: file -b --mime '/tmp/b64f0c4f1099588d3690fe2b7c253f8220170825-1456-zoscca.jpg'
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | STARTED | {"insert"=>"images", "documents"=>[{"_id"=>BSON::ObjectId('59a0a9f3e0b10505b0d5e550'), "attachment_file_name"=>"b737_5.jpg", "attachment_content_type"=>"image/jpeg", "attachment_file_size"=>41388, "attachment_fingerprint"=>"949e2383af526dfbdafd8beb78f...
+MONGODB | localhost:27017 | resize_photos_challenge_test.insert | SUCCEEDED | 0.000570476s
+  [1m[35m (0.2ms)[0m  [1m[35mPRAGMA foreign_keys[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = OFF[0m
+  [1m[35m (0.1ms)[0m  [1m[35mPRAGMA foreign_keys = 1[0m
