@@ -5,3 +5,202 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 218ms (Views: 8.4ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-08-23 22:59:57 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/gabrielcaires/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/gabrielcaires/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 241ms (Views: 26.7ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2017-08-23 23:00:02 -0300
+Processing by ImagesController#index as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NameError (uninitialized constant ImagesController::Image):
+  
+app/controllers/images_controller.rb:3:in `index'
+Started GET "/" for 127.0.0.1 at 2017-08-25 18:51:36 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/gabrielcaires/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/gabrielcaires/.rbenv/versions/2.4.0/lib/ruby/gems/2.4.0/gems/railties-5.1.3/lib/rails/templates/rails/welcome/index.html.erb (4.9ms)
+Completed 200 OK in 320ms (Views: 11.4ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2017-08-25 18:52:40 -0300
+Processing by ImagesController#index as */*
+  Rendering images/index.json.jbuilder
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | SUCCEEDED | 0.0013613949999999998s
+  Rendered images/index.json.jbuilder (126.5ms)
+Completed 500 Internal Server Error in 140ms
+
+
+  
+ActionView::Template::Error (Missing partial images/_image with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:jbuilder]}. Searched in:
+  * "/home/gabrielcaires/Área de Trabalho/resize_photo_challenge/app/views"
+):
+    1: json.images do
+    2:   json.array! @images, partial: 'images/image', as: :image
+    3: end
+  
+app/views/images/index.json.jbuilder:2:in `block in _app_views_images_index_json_jbuilder__3059610796121165758_47391821714720'
+app/views/images/index.json.jbuilder:1:in `_app_views_images_index_json_jbuilder__3059610796121165758_47391821714720'
+Started GET "/images" for 127.0.0.1 at 2017-08-25 18:52:49 -0300
+Processing by ImagesController#index as HTML
+  Rendering images/index.json.jbuilder
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | SUCCEEDED | 0.000748946s
+  Rendered images/index.json.jbuilder (4.5ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+ActionView::Template::Error (Missing partial images/_image with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:jbuilder]}. Searched in:
+  * "/home/gabrielcaires/Área de Trabalho/resize_photo_challenge/app/views"
+):
+    1: json.images do
+    2:   json.array! @images, partial: 'images/image', as: :image
+    3: end
+  
+app/views/images/index.json.jbuilder:2:in `block in _app_views_images_index_json_jbuilder__3059610796121165758_47391820829580'
+app/views/images/index.json.jbuilder:1:in `_app_views_images_index_json_jbuilder__3059610796121165758_47391820829580'
+Started GET "/images" for 127.0.0.1 at 2017-08-25 18:55:01 -0300
+Processing by ImagesController#index as */*
+  Rendering images/index.json.jbuilder
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | SUCCEEDED | 0.0030056500000000003s
+  Rendered images/index.json.jbuilder (16.3ms)
+Completed 500 Internal Server Error in 198ms
+
+
+  
+ActionView::Template::Error (Missing partial images/_image with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:jbuilder]}. Searched in:
+  * "/home/gabrielcaires/Área de Trabalho/resize_photo_challenge/app/views"
+):
+    1: json.images do
+    2:   json.array! @images, partial: 'images/image', as: :image
+    3: end
+  
+app/views/images/index.json.jbuilder:2:in `block in _app_views_images_index_json_jbuilder__339184077160041890_46935973435640'
+app/views/images/index.json.jbuilder:1:in `_app_views_images_index_json_jbuilder__339184077160041890_46935973435640'
+Started GET "/images" for 127.0.0.1 at 2017-08-25 18:55:08 -0300
+Processing by ImagesController#index as HTML
+  Rendering images/index.json.jbuilder
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | SUCCEEDED | 0.000735982s
+  Rendered images/index.json.jbuilder (4.0ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+ActionView::Template::Error (Missing partial images/_image with {:locale=>[:en], :formats=>[:json], :variants=>[], :handlers=>[:jbuilder]}. Searched in:
+  * "/home/gabrielcaires/Área de Trabalho/resize_photo_challenge/app/views"
+):
+    1: json.images do
+    2:   json.array! @images, partial: 'images/image', as: :image
+    3: end
+  
+app/views/images/index.json.jbuilder:2:in `block in _app_views_images_index_json_jbuilder__339184077160041890_69889620507640'
+app/views/images/index.json.jbuilder:1:in `_app_views_images_index_json_jbuilder__339184077160041890_69889620507640'
+Started GET "/images" for 127.0.0.1 at 2017-08-25 18:55:57 -0300
+Processing by ImagesController#index as */*
+  Rendering images/index.json.jbuilder
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | SUCCEEDED | 0.001226558s
+  Rendered images/_images.json.jbuilder (47.9ms)
+  Rendered images/index.json.jbuilder (54.5ms)
+Completed 500 Internal Server Error in 218ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `image' for #<#<Class:0x007fe970365748>:0x007fe9703576c0>
+Did you mean?  images
+               @images):
+    1: json.small_url image_url(image.small_url)
+    2: json.medium_url image_url(image.medium_url)
+    3: json.large_url image_url(image.large_url)
+  
+app/views/images/_images.json.jbuilder:1:in `_app_views_images__images_json_jbuilder__320552502239713304_70320292956100'
+app/views/images/index.json.jbuilder:2:in `block in _app_views_images_index_json_jbuilder___59738620941892964_47096036697140'
+app/views/images/index.json.jbuilder:1:in `_app_views_images_index_json_jbuilder___59738620941892964_47096036697140'
+Started GET "/images" for 127.0.0.1 at 2017-08-25 18:56:02 -0300
+Processing by ImagesController#index as HTML
+  Rendering images/index.json.jbuilder
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | SUCCEEDED | 0.0007734230000000001s
+  Rendered images/_images.json.jbuilder (56.9ms)
+  Rendered images/index.json.jbuilder (60.0ms)
+Completed 500 Internal Server Error in 63ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `image' for #<#<Class:0x007fe970365748>:0x0055aacea0ea28>
+Did you mean?  images
+               @images):
+    1: json.small_url image_url(image.small_url)
+    2: json.medium_url image_url(image.medium_url)
+    3: json.large_url image_url(image.large_url)
+  
+app/views/images/_images.json.jbuilder:1:in `_app_views_images__images_json_jbuilder__320552502239713304_47096049667640'
+app/views/images/index.json.jbuilder:2:in `block in _app_views_images_index_json_jbuilder___59738620941892964_47096049728220'
+app/views/images/index.json.jbuilder:1:in `_app_views_images_index_json_jbuilder___59738620941892964_47096049728220'
+Started GET "/images" for 127.0.0.1 at 2017-08-25 18:56:29 -0300
+Processing by ImagesController#index as */*
+  Rendering images/index.json.jbuilder
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Topology type 'unknown' changed to type 'single'.
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | There was a change in the members of the 'single' topology.
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | SUCCEEDED | 0.002246824s
+  Rendered images/_images.json.jbuilder (1.6ms)
+  Rendered images/_images.json.jbuilder (0.9ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (1.0ms)
+  Rendered images/_images.json.jbuilder (1.0ms)
+  Rendered images/_images.json.jbuilder (1.0ms)
+  Rendered images/_images.json.jbuilder (1.1ms)
+  Rendered images/_images.json.jbuilder (1.1ms)
+  Rendered images/_images.json.jbuilder (1.1ms)
+  Rendered images/_images.json.jbuilder (1.1ms)
+  Rendered images/index.json.jbuilder (98.5ms)
+Completed 200 OK in 277ms (Views: 105.9ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2017-08-25 18:56:34 -0300
+Processing by ImagesController#index as HTML
+  Rendering images/index.json.jbuilder
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | STARTED | {"find"=>"images", "filter"=>{}}
+MONGODB | localhost:27017 | resize_photos_challenge_development.find | SUCCEEDED | 0.00178444s
+  Rendered images/_images.json.jbuilder (1.8ms)
+  Rendered images/_images.json.jbuilder (1.9ms)
+  Rendered images/_images.json.jbuilder (1.4ms)
+  Rendered images/_images.json.jbuilder (2.3ms)
+  Rendered images/_images.json.jbuilder (1.1ms)
+  Rendered images/_images.json.jbuilder (0.5ms)
+  Rendered images/_images.json.jbuilder (1.0ms)
+  Rendered images/_images.json.jbuilder (1.4ms)
+  Rendered images/_images.json.jbuilder (0.6ms)
+  Rendered images/_images.json.jbuilder (2.1ms)
+  Rendered images/index.json.jbuilder (30.0ms)
+Completed 200 OK in 33ms (Views: 31.7ms)
+
+
